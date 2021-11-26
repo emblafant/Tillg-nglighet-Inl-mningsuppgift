@@ -1,0 +1,38 @@
+//Colors
+$dark-green:#3A4D19;
+$green:#8CAF4F;
+$light-green:#D9E2C6;
+$pale-green:#EDF3E6;
+
+//Paddings and margins
+$mobile-padding:20px;
+
+$tablet-padding:20px 40px;
+
+$small-screen-margin:20px;
+
+//Media queries
+
+@mixin for-tablet {
+  @media (min-width:481px){
+    @content;
+  }
+}
+
+@mixin for-small-screen {
+  @media (min-width:769px){
+    @content;
+  }
+}
+
+@mixin for-large-screen {
+  @media (min-wdith:1025px){
+    @content;
+  }
+}
+
+@mixin for-extra-large-screen {
+  @media (min-wdith:1201px) {
+    @content;
+  }
+}

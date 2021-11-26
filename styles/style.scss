@@ -1,0 +1,121 @@
+@import "partials";
+
+//text
+h1 {
+  color: $pale-green;
+  text-align: center;
+  font-family: 'Roboto Slab', 'Georgia', serif;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Roboto Slab', 'Georgia', serif;
+}
+
+p {
+  font-family: 'Rubik', 'Verdana', sans-serif;
+}
+//Sections
+
+body {
+  background-color: $dark-green;
+  color: $dark-green;
+  margin: 0;
+  width: 100vw;
+}
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+
+  @include for-small-screen {
+      flex-direction: row;
+      justify-content: space-around;
+  }
+}
+
+article {
+  background-color: $pale-green;
+  padding: $mobile-padding;
+
+  @include for-tablet {
+    padding: $tablet-padding;
+  }
+
+  @include for-small-screen {
+    border-radius: 4px;
+    margin: $small-screen-margin;
+    width: 25%;
+  }
+
+}
+
+.accessibility-examples {
+  background-color: $light-green;
+
+  @include for-small-screen {
+    background-color: $pale-green;
+  }
+}
+
+.links {
+  width: 100vw;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+
+  @include for-small-screen {
+    border-radius: 4px;
+    margin: $small-screen-margin;
+    background-color: $pale-green;
+  }
+
+  div {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  background-color: $light-green;
+  padding: $mobile-padding;
+
+  @include for-tablet {
+    padding: $tablet-padding;
+  }
+}
+
+footer {
+  padding: $mobile-padding;
+  p {
+    color: $pale-green;
+  }
+
+  @include for-tablet {
+    padding: $tablet-padding;
+  }
+}
+
+//Elements
+
+img {
+  padding:20px 0 0 0;
+  width: 100%;
+  border-radius: 4px;
+}
+
+button {
+  border: 0;
+  border-radius: 4px;
+  background-color: $pale-green;
+  padding: 15px 10%;
+  font-family: 'Rubik', 'Verdana', sans-serif;
+
+  @include for-small-screen {
+    background-color: $light-green;
+  }
+}
