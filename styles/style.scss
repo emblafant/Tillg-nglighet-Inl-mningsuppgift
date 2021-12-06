@@ -117,3 +117,10 @@ button {
 button:hover {
   background-color: $green;
 }
+
+a {
+  font-family: 'Rubik', 'Verdana', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: $dark-green;
+}

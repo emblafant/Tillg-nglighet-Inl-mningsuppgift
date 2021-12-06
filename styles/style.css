@@ -144,4 +144,11 @@ button {
 button:hover {
   background-color: #8CAF4F;
 }
+
+a {
+  font-family: 'Rubik', 'Verdana', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #3A4D19;
+}
 /*# sourceMappingURL=style.css.map */
