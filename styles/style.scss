@@ -18,10 +18,9 @@ p {
 //Sections
 
 body {
-  background-color: $dark-green;
+  background-color: $green;
   color: $dark-green;
   margin: 0;
-  width: 100vw;
 }
 
 main {
@@ -64,11 +63,6 @@ article {
 }
 
 .links {
-  width: 100vw;
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-
   @include for-small-screen {
     border-radius: 4px;
     margin: $small-screen-margin;
@@ -118,4 +112,8 @@ button {
   @include for-small-screen {
     background-color: $light-green;
   }
+}
+
+button:hover {
+  background-color: $green;
 }
