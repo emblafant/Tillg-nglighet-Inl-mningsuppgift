@@ -1,5 +1,5 @@
 h1 {
-  color: #EDF3E6;
+  color: black;
   text-align: center;
   font-family: 'Roboto Slab', 'Georgia', serif;
 }
@@ -14,8 +14,8 @@ p {
 }
 
 body {
-  background-color: #8CAF4F;
-  color: #3A4D19;
+  background-color: #BBDC2F;
+  color: black;
   margin: 0;
 }
 
@@ -51,7 +51,7 @@ main {
 }
 
 article {
-  background-color: #EDF3E6;
+  background-color: #fcfcfc;
   padding: 20px;
 }
 
@@ -64,31 +64,31 @@ article {
 @media (min-width: 769px) {
   article {
     border-radius: 4px;
-    margin: 20px;
+    margin: 10px;
     width: 25%;
   }
 }
 
 .accessibility-examples {
-  background-color: #D9E2C6;
+  background-color: #E1EEC7;
 }
 
 @media (min-width: 769px) {
   .accessibility-examples {
-    background-color: #EDF3E6;
+    background-color: #fcfcfc;
   }
 }
 
 .links {
-  background-color: #D9E2C6;
+  background-color: #E1EEC7;
   padding: 20px;
 }
 
 @media (min-width: 769px) {
   .links {
     border-radius: 4px;
-    margin: 20px;
-    background-color: #EDF3E6;
+    margin: 10px;
+    background-color: #fcfcfc;
   }
 }
 
@@ -101,6 +101,10 @@ article {
       justify-content: space-around;
 }
 
+.links h2 {
+  margin-top: 0;
+}
+
 @media (min-width: 481px) {
   .links {
     padding: 20px 40px;
@@ -109,10 +113,7 @@ article {
 
 footer {
   padding: 20px;
-}
-
-footer p {
-  color: #EDF3E6;
+  background-color: #fcfcfc;
 }
 
 footer h2 {
@@ -126,6 +127,12 @@ footer h2 {
   }
 }
 
+@media (min-width: 769px) {
+  footer {
+    background-color: #BBDC2F;
+  }
+}
+
 img {
   padding: 20px 0 0 0;
   width: 100%;
@@ -135,25 +142,25 @@ img {
 button {
   border: 0;
   border-radius: 4px;
-  background-color: #EDF3E6;
+  background-color: #BBDC2F;
   padding: 15px 10%;
   font-family: 'Rubik', 'Verdana', sans-serif;
 }
 
 @media (min-width: 769px) {
   button {
-    background-color: #D9E2C6;
+    background-color: #BBDC2F;
   }
 }
 
 button:hover {
-  background-color: #8CAF4F;
+  background-color: #E1EEC7;
 }
 
 a {
   font-family: 'Rubik', 'Verdana', sans-serif;
   font-weight: bold;
   text-decoration: none;
-  color: #3A4D19;
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */

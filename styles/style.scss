@@ -2,7 +2,7 @@
 
 //text
 h1 {
-  color: $pale-green;
+  color: black;
   text-align: center;
   font-family: 'Roboto Slab', 'Georgia', serif;
 }
@@ -19,7 +19,7 @@ p {
 
 body {
   background-color: $green;
-  color: $dark-green;
+  color: black;
   margin: 0;
 }
 
@@ -75,6 +75,10 @@ article {
     justify-content: space-around;
   }
 
+  h2 {
+    margin-top: 0;
+  }
+
   background-color: $light-green;
   padding: $mobile-padding;
 
@@ -85,9 +89,7 @@ article {
 
 footer {
   padding: $mobile-padding;
-  p {
-    color: $pale-green;
-  }
+  background-color: $pale-green;
   h2 {
     text-align: left;
     font-size: 20px;
@@ -95,6 +97,9 @@ footer {
 
   @include for-tablet {
     padding: $tablet-padding;
+  }
+  @include for-small-screen {
+    background-color: $green;
   }
 }
 
@@ -109,22 +114,22 @@ img {
 button {
   border: 0;
   border-radius: 4px;
-  background-color: $pale-green;
+  background-color: $green;
   padding: 15px 10%;
   font-family: 'Rubik', 'Verdana', sans-serif;
 
   @include for-small-screen {
-    background-color: $light-green;
+    background-color: $green;
   }
 }
 
 button:hover {
-  background-color: $green;
+  background-color: $light-green;
 }
 
 a {
   font-family: 'Rubik', 'Verdana', sans-serif;
   font-weight: bold;
   text-decoration: none;
-  color: $dark-green;
+  color: black;
 }
