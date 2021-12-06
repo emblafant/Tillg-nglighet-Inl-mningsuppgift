@@ -88,6 +88,10 @@ footer {
   p {
     color: $pale-green;
   }
+  h2 {
+    text-align: left;
+    font-size: 20px;
+  }
 
   @include for-tablet {
     padding: $tablet-padding;
